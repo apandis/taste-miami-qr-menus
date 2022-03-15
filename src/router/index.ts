@@ -18,9 +18,9 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue')
     },
     {
-      path: '/marenas',
-      name: 'marenas',
-      component: () => import('../views/MarenasView.vue')
+      path: '/epicure',
+      name: 'epicure',
+      component: () => import('../views/EpicureView.vue')
     }
   ]
 })
